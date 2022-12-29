@@ -1,0 +1,53 @@
+body {
+    margin: 3% 20%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 31%
+}
+
+.poke-card {
+    padding: 2%;
+    border: 0px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.06);
+    text-align: center;
+    cursor: pointer;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.poke-card * {
+    margin: 0;
+    padding: 0;
+}
+
+.poke-card img {
+    width: 200px;
+}
+
+.poke-card .info {
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.poke-card .info p {
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.poke-card .types {
+    justify-content: center;
+}
+
+.poke-card .label {
+    max-width: fit-content;
+    padding: 1px 5px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px 5px;
+}
